@@ -1,3 +1,4 @@
+#This doesn't work, but it was my first try without any sort of tutorial
 import os
 import keras
 import sklearn.ensemble
