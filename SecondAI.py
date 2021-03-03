@@ -66,15 +66,5 @@ logreg_data.to_csv('Titanic1.csv', index=False)
 
 
 
-#model.fit(x_train, y)
 
-history = model.fit(x_test,
-                    epochs=1,
-                    batch_size=128,
-                    validation_data=(x_test.empty))
-
-predictions = model.predict(x_test) 
-
-output = pd.DataFrame({'PassengerId': test_data.PassengerId, 'Survived': predictions})
-output.to_csv('my_submission.csv', index=False)
 
