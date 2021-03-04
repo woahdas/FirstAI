@@ -1,4 +1,4 @@
-#This is the best one so far, and scored 0.76 (76% accurate) on Kaggle!
+#This is the best one so far.
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
