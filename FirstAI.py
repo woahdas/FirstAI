@@ -1,4 +1,4 @@
-#This doesn't work, but it was my first try without any sort of tutorial
+#This doesn't work, but it was my first try at making an AI on Kaggle, it also wasn't made with the help of a tutorial.
 import os
 import keras
 import sklearn.ensemble
