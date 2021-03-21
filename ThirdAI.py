@@ -27,7 +27,6 @@ logreg = LogisticRegression()
 logreg.fit(train[features],train[target])
 
 logreg_predictions = logreg.predict(test[features])
-#logreg_data = pd.read_csv("/kaggle/input/titanic/test.csv")
 
 submission = pd.DataFrame({'PassengerId':test['PassengerId'],'Survived':logreg_predictions})
 submission.to_csv('submission2.csv', index=False)
